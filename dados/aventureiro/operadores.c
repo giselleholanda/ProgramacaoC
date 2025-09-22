@@ -27,17 +27,17 @@
         multiplicacao = numero1 * numero2;
 
         //operação divisão
-        divisao = numero 1 / numero2;
+        divisao = numero1 / numero2;
 
-        printf("A Soma é: "%d"\n", soma);
-        printf("A Subtração é: "%d"\n", subtracao);
-        printf("A Multiplicação é: "%d"\n", multiplicacao);
-        printf("A Divisão é: "%d"\n", divisao);
-
-
+        printf("A Soma é: %d\n", soma);
+        printf("A Subtração é: %d\n", subtracao);
+        printf("A Multiplicação é: %d\n", multiplicacao);
+        printf("A Divisão é: %d\n", divisao);
 
 
 
 
+
+        return 0;
 
     }
