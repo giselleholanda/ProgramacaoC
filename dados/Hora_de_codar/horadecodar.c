@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Hora de codar nível novato
+
 int main(){
 
     int idade, matricula;

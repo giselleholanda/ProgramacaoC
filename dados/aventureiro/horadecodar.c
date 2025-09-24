@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Hora de codar nível aventureiro
+
 int main(){
 
         float nota1, nota2, nota3;
