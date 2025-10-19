@@ -14,7 +14,7 @@ int main(){
 
         // Inicialização do jogo
         printf("### :) Bem-vindo ao Jogo do Maior, Menor ou Igual!###\n");
-        printf("Vamos jogar!! \\o//\n");
+        printf("Vamos jogar!! :D\n");
         printf("Você deve escolher um número e o tipo de comparaçao.\n");
         printf("Tipos de comparação:\n");
         printf("M. para Maior\n");
@@ -35,35 +35,43 @@ int main(){
         {
         case 'M':
         case 'm':
+            printf("Você escolheu comparar se seu número é Maior.\n");
             resultado = (numeroJogador > numeroComputador) ? 1 : 0;
-            if (resultado) {
+            /*if (resultado) {
                 printf("Parabéns! Você venceu! Seu número é maior.\n");
             } else {
                 printf("Que pena! Você perdeu! Seu número não é maior.\n");
-            }
+            }*/
             break;
         case 'N':
         case 'n':
+            printf("Você escolheu comparar se seu número é Menor.\n");
             resultado = (numeroJogador < numeroComputador) ? 1 : 0;
-            if (resultado) {
+            /*if (resultado) {
                 printf("Parabéns! Você venceu! Seu número é menor.\n");
             } else {
                 printf("Que pena! Você perdeu! Seu número não é menor.\n");
-            }
+            }*/
             break;
         case 'I':
         case 'i':
+            printf("Você escolheu comparar se seu número é Igual.\n");
             resultado = (numeroJogador == numeroComputador) ? 1 : 0;
-            if (resultado) {
+            /*if (resultado) {
                 printf("Parabéns! Você venceu! Seu número é igual.\n");
             } else {
                 printf("Que pena! Você perdeu! Seu número não é igual.\n");
-            }
+            }*/
             break;        
         default:
             printf("Opção de jogo inválida! Tente novamente. o.O\n");
             break;
         }
+        // Exibir o resultado final
+        if (resultado == 1) {
+            printf("Parabéns! Você venceu! :D\n");
+        } else {
+            printf("Que pena! Você perdeu! :(\n");
 
 
         printf("Deseja jogar novamente? (s/n): ");
