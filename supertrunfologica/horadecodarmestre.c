@@ -36,32 +36,17 @@ int main(){
         case 'M':
         case 'm':
             printf("Você escolheu comparar se seu número é Maior.\n");
-            resultado = (numeroJogador > numeroComputador) ? 1 : 0;
-            /*if (resultado) {
-                printf("Parabéns! Você venceu! Seu número é maior.\n");
-            } else {
-                printf("Que pena! Você perdeu! Seu número não é maior.\n");
-            }*/
+            resultado = (numeroJogador > numeroComputador) ? 1 : 0;           
             break;
         case 'N':
         case 'n':
             printf("Você escolheu comparar se seu número é Menor.\n");
-            resultado = (numeroJogador < numeroComputador) ? 1 : 0;
-            /*if (resultado) {
-                printf("Parabéns! Você venceu! Seu número é menor.\n");
-            } else {
-                printf("Que pena! Você perdeu! Seu número não é menor.\n");
-            }*/
+            resultado = (numeroJogador < numeroComputador) ? 1 : 0;         
             break;
         case 'I':
         case 'i':
             printf("Você escolheu comparar se seu número é Igual.\n");
-            resultado = (numeroJogador == numeroComputador) ? 1 : 0;
-            /*if (resultado) {
-                printf("Parabéns! Você venceu! Seu número é igual.\n");
-            } else {
-                printf("Que pena! Você perdeu! Seu número não é igual.\n");
-            }*/
+            resultado = (numeroJogador == numeroComputador) ? 1 : 0;                    
             break;        
         default:
             printf("Opção de jogo inválida! Tente novamente. o.O\n");
