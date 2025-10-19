@@ -1,5 +1,8 @@
 int main() {
-  int dia = 3;
+  int dia;
+
+  printf("Entre com o valor do dia!\n");
+  scanf("%d", &dia);
 
   if (dia == 1) {
     printf("Domingo\n");

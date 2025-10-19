@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int dia = 3;
+  int dia;
+
+  printf("Entre com o valor do dia!\n");
+  scanf("%d", &dia);
 
   switch (dia) {
     case 1:
