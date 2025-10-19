@@ -28,7 +28,7 @@ int main(){
         scanf("%d", &numeroJogador);
 
         // Exibir número do computador
-        printf("O número do Computador é: %d\n", numeroComputador);
+        // printf("O número do Computador é: %d\n", numeroComputador);
 
         // Verificar o resultado com base no tipo de comparação
         switch (tipoComparacao)
@@ -53,6 +53,8 @@ int main(){
             break;
         }
         // Exibir o resultado final
+        printf("O número do Computador é: %d e do Jogador é: %d\n", numeroComputador, numeroJogador);           
+
         if (resultado == 1) {
             printf("Parabéns! Você venceu! :D\n");
         } else {
